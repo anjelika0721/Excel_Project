@@ -33,7 +33,7 @@ The dataset contains salary information from data-related jobs in 2023, includin
 ### 1. **Median Salary by Job Title**
 - Horizontal bar chart showing median salaries by role.
 
--[Background Table](images/median%20salary%20by%20job%20title.png)
+-![Background Table](images/median%20salary%20by%20job%20title.png)
 
 -[Bar Chart](images/bar%20chart.png)
 
