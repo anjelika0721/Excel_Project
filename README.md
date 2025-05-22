@@ -32,17 +32,26 @@ The dataset contains salary information from data-related jobs in 2023, includin
 
 ### 1. **Median Salary by Job Title**
 - Horizontal bar chart showing median salaries by role.
-#### Background Table
 
--[Background Table](images/mediansalarybyjobtitle.png)
+-[Background Table](images/median%20salary%20by%20job%20title.png)
+
+-[Bar Chart](images/bar%20chart.png)
 
 ### 2. **Country-Level Salary Map**
 - Map chart highlights regional salary differences.
 - Color-coded for easy understanding of high and low paying countries.
 
-### 3. **Interactive Filters**
-- Job title, country, and schedule type slicers added.
-- Users can quickly drill down to specific job combinations.
+-[Background Table](images/job_country.png)
+
+-[Map Chart](images/map_chart.png)
+
+### 3. **Count of Job Schedule Type**
+- Populates the table below, which gives us a list of unique job schedule types.
+
+- [Background Table](images/job_type.png)
+
+- [Chart](images/job_type_chart.png)
+  
 
 ## 🔢 Key Excel Formulas Used
 
@@ -56,6 +65,43 @@ IF(
     (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
     (jobs[salary_year_avg]<>0),
     jobs[salary_year_avg]
+) 
 )
-)
+```
+
+### Job Country Filter Calculation
+
+```excel
+=SORT(FILTER(A2:B112,ISNUMBER(B2:B112)),2,-1)
+```
+
+### Count of Job Schedule Type Calculation
+
+```excel
+
+=FILTER(J2#,NOT(ISNUMBER(SEARCH("and",J2#)))*(J2#<>0))
+
+```
+
+## ❎ Data Validation
+
+- 📋 I implemented **data validation** to create dropdowns for `Job Title`, `Country`, and `Job Schedule Type`.
+- ✅ This ensures users select only valid options, preventing incorrect or inconsistent inputs.
+- 🧮 I used Excel formulas to generate **dynamic, filtered lists** for clean values.
+- 🎯 The validated inputs drive key formulas like the **Median Salary** calculation.
+- 🚀 This improved dashboard **usability, accuracy, and interactivity**.
+
+
+## 🧾 Conclusion
+
+This Excel dashboard helped me explore salary trends across data-related roles.  
+By using charts, formulas, and data validation, I built an interactive and insightful tool.  
+I gained hands-on experience in cleaning data, creating dynamic visuals, and applying Excel logic.  
+The project improved my confidence in data analysis and dashboard design.  
+It reflects my ability to turn raw data into meaningful insights.
+
+
+
+
+
 
