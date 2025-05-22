@@ -33,7 +33,11 @@ The dataset contains salary information from data-related jobs in 2023, includin
 ### 1. **Median Salary by Job Title**
 - Horizontal bar chart showing median salaries by role.
 
+#### Background Table
+
 -![Background Table](images/median%20salary%20by%20job%20title.png)
+
+#### Dashboard
 
 -![Bar Chart](images/bar%20chart.png)
 
@@ -41,15 +45,22 @@ The dataset contains salary information from data-related jobs in 2023, includin
 - Map chart highlights regional salary differences.
 - Color-coded for easy understanding of high and low paying countries.
 
+#### Background Table
+
 -![Background Table](images/job_country.png)
+
+#### Dashboard
 
 -![Map Chart](images/map_chart.png)
 
 ### 3. **Count of Job Schedule Type**
 - Populates the table below, which gives us a list of unique job schedule types.
 
+#### Background Table
+
 - ![Background Table](images/job_type.png)
 
+#### Dashboard
 - ![Chart](images/job_type_chart.png)
   
 
