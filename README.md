@@ -58,7 +58,7 @@ The dataset contains salary information from data-related jobs in 2023, includin
 
 #### Background Table
 
-![Background Table](images/job_type.png)
+![Background Table](images/job%20type.png)
 
 #### Dashboard
 ![Chart](images/job_type_chart.png)
