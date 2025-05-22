@@ -35,11 +35,11 @@ The dataset contains salary information from data-related jobs in 2023, includin
 
 #### Background Table
 
--![Background Table](images/median%20salary%20by%20job%20title.png)
+![Background Table](images/median%20salary%20by%20job%20title.png)
 
 #### Dashboard
 
--![Bar Chart](images/bar%20chart.png)
+![Bar Chart](images/bar%20chart.png)
 
 ### 2. **Country-Level Salary Map**
 - Map chart highlights regional salary differences.
@@ -47,21 +47,21 @@ The dataset contains salary information from data-related jobs in 2023, includin
 
 #### Background Table
 
--![Background Table](images/job_country.png)
+![Background Table](images/job_country.png)
 
 #### Dashboard
 
--![Map Chart](images/map_chart.png)
+![Map Chart](images/map_chart.png)
 
 ### 3. **Count of Job Schedule Type**
 - Populates the table below, which gives us a list of unique job schedule types.
 
 #### Background Table
 
-- ![Background Table](images/job_type.png)
+![Background Table](images/job_type.png)
 
 #### Dashboard
-- ![Chart](images/job_type_chart.png)
+![Chart](images/job_type_chart.png)
   
 
 ## 🔢 Key Excel Formulas Used
