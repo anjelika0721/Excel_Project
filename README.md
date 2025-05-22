@@ -10,7 +10,7 @@ This project helped me understand how to use Excel not only for data entry, but 
 
 ### 📂 Dashboard File
 
-- [Excel Salary Dashboard File](insert-your-xlsx-link-if-any)
+- [Excel Salary Dashboard File](Salary_Calculator.xlsx)
 
 ## 🧠 Excel Skills Used
 
