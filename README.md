@@ -32,7 +32,9 @@ The dataset contains salary information from data-related jobs in 2023, includin
 
 ### 1. **Median Salary by Job Title**
 - Horizontal bar chart showing median salaries by role.
-- Easy comparison between positions (e.g., Analyst vs. Engineer).
+#### Background Table
+
+(images/median salary by job title.png)
 
 ### 2. **Country-Level Salary Map**
 - Map chart highlights regional salary differences.
