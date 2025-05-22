@@ -34,7 +34,7 @@ The dataset contains salary information from data-related jobs in 2023, includin
 - Horizontal bar chart showing median salaries by role.
 #### Background Table
 
-(images/median salary by job title.png)
+-[Background Table](images/mediansalarybyjobtitle.png)
 
 ### 2. **Country-Level Salary Map**
 - Map chart highlights regional salary differences.
